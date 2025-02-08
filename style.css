@@ -143,3 +143,38 @@ section.active {
     padding: 10px;
     border-radius: 8px;
 }
+/* Torna as imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajusta o layout para telas menores */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        text-align: center;
+    }
+
+    .skills, .project-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        width: 100%;
+    }
+
+    .project-card img {
+        width: 90%;
+    }
+
+    form input, form textarea, form button {
+        width: 100%;
+        max-width: 400px;
+    }
+}
