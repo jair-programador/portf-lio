@@ -64,7 +64,8 @@
     <!-- Formulário de Contato -->
     <section id="contact">
         <h2>Entre em Contato</h2>
-        <form name="contato" method="POST" data-netlify="true">
+        <form name="contato" method="POST" data-netlify="true" action="">
+            <input type="hidden" name="form-name" value="contato">
             <input type="text" name="nome" placeholder="Seu Nome" required />
             <input type="email" name="email" placeholder="Seu Email" required />
             <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
