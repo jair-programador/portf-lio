@@ -9,8 +9,6 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -23,13 +21,6 @@ header {
     background: #333;
     color: white;
     padding: 20px 0;
-    height: 60px; /* Ajuste conforme necessário */
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #fff; /* Cor de fundo */
-    z-index: 100;
 }
 
 header h1 {
@@ -195,7 +186,4 @@ img {
     position: absolute;
     top: 20px;
     right: 20px;
-}
-main {
-    padding-top: 80px; /* Ajuste conforme necessário */
 }
