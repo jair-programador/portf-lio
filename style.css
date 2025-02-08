@@ -178,9 +178,12 @@ img {
         max-width: 400px;
     }
 }
-.banner-img {
-    width: 100%; /* Garante que a imagem ocupa toda a largura */
-    max-height: 400px; /* Altura máxima */
-    object-fit: cover; /* Ajusta a imagem sem distorcer */
-    border-radius: 10px; /* Deixa as bordas arredondadas */
+.profile-img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
